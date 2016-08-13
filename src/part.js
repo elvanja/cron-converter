@@ -130,6 +130,8 @@ Part.prototype.fromString = function(str) {
  * @return {array} The resulting array.
  */
 Part.prototype.fixSunday = function(values) {
+  // don't need to support 7 for sunday
+  /*
   if (this.unit.name === 'weekday') {
     values = values.map(function(value) {
       if (value === 7) {
@@ -138,6 +140,7 @@ Part.prototype.fixSunday = function(values) {
       return value;
     });
   }
+  */
   return values;
 };
 

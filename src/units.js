@@ -18,8 +18,8 @@ module.exports = [
   },
   {
     name: 'month',
-    min: 1,
-    max: 12,
+    min: 0,
+    max: 11,
     alt: [
       'JAN', 'FEB', 'MAR', 'APR',
       'MAY', 'JUN', 'JUL', 'AUG',

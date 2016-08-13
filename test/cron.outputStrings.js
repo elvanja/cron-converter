@@ -25,9 +25,9 @@ test('Should output month names as strings', function(t) {
   });
   cron.fromString('* * * 1-3 1-5');
   t.plan(2);
-  t.equal(cron.toString(), '* * * JAN-MAR 1-5');
+  t.equal(cron.toString(), '* * * FEB-APR 1-5');
   cron.fromString('* * * 5-10 1-5');
-  t.equal(cron.toString(), '* * * MAY-OCT 1-5');
+  t.equal(cron.toString(), '* * * JUN-NOV 1-5');
 });
 test('Should not output month names in step', function(t) {
   var cron = new Cron({

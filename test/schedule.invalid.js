@@ -6,7 +6,7 @@ var Cron = require('../src/cron');
 
 var schedules = [
   {
-    string: '* * 30 FEB *',
+    string: '* * 30 MAR *',
     error: 'Unable to find execution time for schedule'
   }
 ];

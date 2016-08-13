@@ -33,8 +33,8 @@ var invalidCron = [
     error: 'Value "0" out of range for day'
   },
   {
-    string: '0 0 1 0 0',
-    error: 'Value "0" out of range for month'
+    string: '0 0 1 12 0',
+    error: 'Value "12" out of range for month'
   },
   {
     string: '/ / / / /',
@@ -57,8 +57,8 @@ var invalidCron = [
     error: 'Value "0" out of range for day'
   },
   {
-    string: '* * * 0 *',
-    error: 'Value "0" out of range for month'
+    string: '* * * 12 *',
+    error: 'Value "12" out of range for month'
   },
   {
     string: '0/5/5 * * 0 *',

@@ -32,6 +32,6 @@ test('Should output hashes for readme', function(t) {
   cron.fromString('*/5 9-17/2 * 1-3 1-5');
   t.equal(
     cron.toString(),
-    'H/5 H(10-16)/2 H JAN-MAR MON-FRI'
+    'H/5 H(10-16)/2 H FEB-APR MON-FRI'
   );
 });
